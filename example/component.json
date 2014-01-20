@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "dependencies": {
+    "visionmedia/co": "*"
+  },
+  "scripts": [
+    "index.js",
+    "runtime.js"
+  ],
+  "main": "index.js"
+}

@@ -7,16 +7,42 @@ facebook/regenerator plugin for component-builder
 # Installing
 
 ```
-$ npm install component-regenerator
+$ npm install -g component-regenerator
 ```
 
 # Usage
 
-TODO:
+To enable jscoverage of your scripts, run the following code.
+
+```js
+var Builder = require('component-builder');
+var plugin = require('component-regenerator');
+var fs = require('fs');
+
+var builder = new Builder(__dirname);
+
+builder.use(plugin);
+
+builder.build(function (err, build) {
+  if (err) {
+    throw err;
+  }
+  fs.writeFileSync('build/build.js', build.require + build.js);
+});
+```
+
+Or from the command line.
+
+```
+$ component build --use component-regenerator
+```
 
 # Testing
 
-TODO:
+```
+$ npm install
+$ make test
+```
 
 # License
 

@@ -1,6 +1,6 @@
 {
   "name": "component-regenerator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "facebook regenerator plugin for component-builder",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [
     "component",
     "builder",
-    "regenerator"
+    "generator"
   ],
   "dependencies": {
     "debug": "*",
@@ -22,7 +22,12 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "*",
+    "component-builder": "~0.10.1",
+    "component": "~0.19.5",
+    "jscoverage": "~0.3.8",
+    "mocha-lcov-reporter": "0.0.1",
+    "coveralls": "~2.6.1"
   },
   "main": "index.js",
   "scripts": {
