@@ -1,11 +1,12 @@
 {
   "name": "example",
   "dependencies": {
-    "visionmedia/co": "*"
+    "visionmedia/co": "*",
+    "kazupon/setImmediate": "*"
   },
   "scripts": [
     "index.js",
-    "runtime.js"
+    "generator-runtime.js"
   ],
   "main": "index.js"
 }

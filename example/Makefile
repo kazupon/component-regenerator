@@ -8,7 +8,7 @@ build: components $(SRC)
 	@node ./builder.js
 
 clean:
-	@rm -fr ./components
-	@rm ./build.js
+	@rm -rf ./components
+	@rm -rf ./build.js
 
 .PHONY: clean build
