@@ -12,7 +12,7 @@ $ npm install -g component-regenerator
 
 # Usage
 
-To enable jscoverage of your scripts, run the following code.
+To convert your scripts which was writen by generator, run the following code.
 
 ```js
 var Builder = require('component-builder');
