@@ -1,6 +1,6 @@
 {
   "name": "component-regenerator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "facebook regenerator plugin for component-builder",
   "repository": {
     "type": "git",
